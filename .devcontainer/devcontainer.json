@@ -1,0 +1,13 @@
+{
+  "name": "spring Boot Dev Container",
+  "image": "://microsoft.com",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:1":{}
+  }, 
+  "customizations": {
+    "jetbrains": {
+    "backend": "IntelliJ"
+    }
+  },
+  "forwardports": [8080]
+}
